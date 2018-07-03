@@ -1,0 +1,26 @@
+{
+  "name": "quickstart-react-parcel",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": "git@github.com:angushtlam/quickstart-react-parcel.git",
+  "author": "Angus Lam <angushtlam@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^2.0.0 || ^3.0.0 || ^4.0.0-0"
+  }
+}
