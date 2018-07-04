@@ -1,19 +1,20 @@
 {
   "name": "quickstart-react-parcel",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Boilerplate for a React-based project built with Parcel",
   "main": "index.js",
   "repository": "git@github.com:angushtlam/quickstart-react-parcel.git",
   "author": "Angus Lam <angushtlam@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html"
+    "build": "rm -rf dist/ && parcel build index.html --detailed-report",
+    "dev": "parcel index.html --no-autoinstall"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.9.0",
     "parcel-bundler": "^1.9.1",
     "path": "^0.12.7"
   },

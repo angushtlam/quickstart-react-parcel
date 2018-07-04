@@ -5,6 +5,8 @@ import {Provider} from 'react-redux'
 import App from './App'
 import reducers from './reducers'
 
+import './styles/index.scss'
+
 // Configure store to persist beyond hot reloading
 // https://github.com/parcel-bundler/parcel/issues/314
 function configureStore() {
